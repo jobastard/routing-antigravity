@@ -1,0 +1,41 @@
+{
+  "services": [
+    {
+      "id": "antigravity-api",
+      "displayName": "Antigravity API",
+      "category": "ai",
+      "domains": [
+        "cloudcode-pa.googleapis.com",
+        "daily-cloudcode-pa.googleapis.com"
+      ],
+      "processes": [
+        "Antigravity.exe",
+        "language_server.exe",
+        "agy.exe"
+      ],
+      "action": "vpn"
+    },
+    {
+      "id": "antigravity-site",
+      "displayName": "Сайт Antigravity",
+      "category": "ai",
+      "domains": [
+        "antigravity.google"
+      ],
+      "processes": [],
+      "action": "vpn"
+    }
+  ],
+  "bundles": [
+    {
+      "id": "antigravity",
+      "label": "Google Antigravity",
+      "description": "IDE, CLI и Language Server через VPN-сервер в поддерживаемом регионе",
+      "serviceIds": [
+        "antigravity-api",
+        "antigravity-site"
+      ],
+      "defaultEnabled": false
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "id": "routing-antigravity",
+  "name": "Google Antigravity",
+  "version": "1.0.0",
+  "description": "Маршрутизация Google Antigravity (IDE, CLI, Language Server) через ваш VPN-сервер в поддерживаемом регионе: API-хосты cloudcode-pa, сайт и процессы IDE. Остальной трафик не затрагивается.",
+  "author": "Kagurabachi",
+  "capabilities": [
+    "routing"
+  ],
+  "minAppVersion": "2.6.0"
+}
